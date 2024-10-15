@@ -1,0 +1,83 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+#base {
+    background-color: #080705;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px black;
+    color: #D7DEDC;
+    width: auto;
+}
+#judul {
+    text-align: center;
+}
+#Login {
+    text-align: center;
+    color: #D7DEDC;
+    margin-top: 20px;
+}
+#form {
+    margin: 30px;
+}
+.custom-btn{ 
+    color: #D7DEDC;
+    border: #D7DEDC;
+}
+.custom-btn:hover {
+    background-color: #D7DEDC;
+    color: #080705;
+}
+input{
+    width: 100%;
+    border: 2px solid #CFCFCD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #D7DEDC;
+    background-color:#080705;
+}
+input:hover{
+    border: 2px solid #D7DEDC;
+}
+#kolom {
+    width: 100%;
+}
+
+/* 
+FILE error.html
+*/
+
+#normal{
+    background-color: #080705;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    color: #D7DEDC;
+    width: auto;
+    padding: 1cm;
+}
+
+/*
+FILE logout.html
+*/
+
+#tombol{
+    width: 100%;
+    border: 2px solid #CFCFCD;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #D7DEDC;
+    background-color:#080705;
+}
+#tombol:hover{
+    border: 2px solid #D7DEDC;
+}
+
+#tabel{
+    background-color: #080705 !important;
+}
+.custom-table{
+    background-color: #080705 !important;
+}
